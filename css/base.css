@@ -1,0 +1,96 @@
+/* Apply to elements such as body and main
+Examples include styling of overall font and background color */
+body {
+    margin: 0px auto;
+    width: 500px;
+    text-align: center;
+}
+
+
+div {
+    border: 1px black solid;
+    background-color: aqua;
+
+    
+    /* the following taken from w3schools */
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* the preceeding taken from w3schools */
+}
+
+
+#a {
+    width: 480px;
+    height: 75px;   
+}
+
+
+#b {
+    width:480px;
+    height: 150px;
+}
+
+#c {
+    width: 480px;
+    height: 125px;
+}
+
+#d {
+    width: 480px;
+    height: 125px;
+}
+
+#e {
+    width: 240px;
+    height: 250px;
+    float: left;
+}
+
+#f {
+    width: 240px;
+    height: 250px;
+    float: left;
+}
+
+#g {
+    width: 240px;
+    height: 250px;
+    float: left;
+}
+
+#h {
+    width: 240px;
+    height: 250px;
+    float: left;
+}
+
+#i {
+    width: 480px;
+    height: 80px;
+    float: left;
+}
+
+@media screen and (min-width: 768px)  {
+    #a {
+        width: 960px;
+        height: 100px;
+    }
+
+    #b{
+        width: 200px;
+        height: 600px;
+        float: left;
+    }
+
+    #c{
+        width: 380px;
+        height: 200px;
+    }
+
+}
+
+
+
+
