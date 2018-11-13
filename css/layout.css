@@ -1,0 +1,45 @@
+/* Apply to elements such as header, footer, nav, aside
+Classes and IDs can be included here */
+
+
+#a {
+    width: 480px;
+    height: 75px;   
+    background-color: aqua;
+    line-height: 75px;
+
+}
+
+#i {
+    width: 480px;
+    height: 80px;
+    float: left;
+    background-color: yellow;
+    line-height: 80px;
+
+
+}
+
+
+@media screen and (min-width: 768px)  {
+
+    #a {
+        width: 960px;
+        height: 100px;
+        background-color: yellow;
+        line-height: 100px;
+
+
+    }
+
+    #i {
+        width: 760px;
+        height: 150px;
+        float: left;
+        background-color: aqua;
+        line-height: 150px;
+
+
+    }
+
+}

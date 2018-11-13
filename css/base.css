@@ -1,0 +1,180 @@
+/* Apply to elements such as body and main
+Examples include styling of overall font and background color */
+body {
+    margin: 0px auto;
+    width: 500px;
+    text-align: center;
+}
+
+
+/* div { */
+    /* border: 1px black solid; */
+    /* background-color: aqua; */
+
+    
+    /* the following taken from w3schools */
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* the preceeding taken from w3schools
+} */
+
+
+
+
+#b {
+    width:480px;
+    height: 150px;
+    background-color: red;
+    line-height: 150px;
+
+
+}
+
+#c {
+    width: 480px;
+    height: 125px;
+    background-color: green;
+    line-height: 125px;
+
+
+}
+
+#d {
+    width: 480px;
+    height: 125px;
+    background-color: greenyellow;
+    line-height: 125px;
+
+
+}
+
+#e {
+    width: 240px;
+    height: 250px;
+    float: left;
+    background-color: brown;
+    line-height: 250px;
+
+
+}
+
+#f {
+    width: 240px;
+    height: 250px;
+    float: left;
+    background-color: violet;
+    line-height: 250px;
+
+
+}
+
+#g {
+    width: 240px;
+    height: 250px;
+    float: left;
+    background-color: turquoise;
+    line-height: 250px;
+
+
+}
+
+#h {
+    width: 240px;
+    height: 250px;
+    float: left;
+    background-color: beige;
+    line-height: 250px;
+
+
+}
+
+
+@media screen and (min-width: 768px)  {
+
+    body {
+        margin: 0px auto;
+        width: 980px;
+    }
+
+
+    #b {
+        width: 200px;
+        height: 600px;
+        float: left;
+        background-color: beige;
+        line-height: 600px;
+
+
+    }
+
+    #c {
+        width: 380px;
+        height: 200px;
+        float: left;
+        background-color: turquoise;
+        line-height: 200px;
+
+
+    }
+
+    #d {
+        width: 380px;
+        height: 200px;
+        float: left;
+        background-color: violet;
+        line-height: 200px;
+
+
+    }
+
+    #e {
+        width: 190px;
+        height: 250px;
+        float: left;
+        background-color: brown;
+        line-height: 250px;
+
+    }
+
+    #f {
+        width: 190px;
+        height: 250px;
+        float: left;
+        background-color: greenyellow;
+        line-height: 250px;
+
+    }
+
+    #g {
+        width: 190px;
+        height: 250px;
+        float: left;
+        background-color: green;
+        line-height: 250px;
+
+
+    }
+
+    #h {
+        width: 190px;
+        height: 250px;
+        float: left;
+        background-color: red;
+        line-height: 250px;
+
+
+    }
+
+    
+
+
+
+
+
+}
+
+
+
+
