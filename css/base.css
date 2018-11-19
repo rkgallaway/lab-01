@@ -1,9 +1,13 @@
 /* Apply to elements such as body and main
 Examples include styling of overall font and background color */
 body {
-    margin: 0px auto;
+    /* margin: 0px auto; */
     width: 500px;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -20,6 +24,12 @@ body {
     /* the preceeding taken from w3schools
 } */
 
+/* main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
 
 
 
@@ -53,7 +63,7 @@ body {
 #e {
     width: 240px;
     height: 250px;
-    float: left;
+    /* float: left; */
     background-color: brown;
     line-height: 250px;
 
@@ -63,7 +73,7 @@ body {
 #f {
     width: 240px;
     height: 250px;
-    float: left;
+    /* float: left; */
     background-color: violet;
     line-height: 250px;
 
@@ -73,7 +83,7 @@ body {
 #g {
     width: 240px;
     height: 250px;
-    float: left;
+    /* float: left; */
     background-color: turquoise;
     line-height: 250px;
 
@@ -83,7 +93,7 @@ body {
 #h {
     width: 240px;
     height: 250px;
-    float: left;
+    /* float: left; */
     background-color: beige;
     line-height: 250px;
 
@@ -102,7 +112,7 @@ body {
     #b {
         width: 200px;
         height: 600px;
-        float: left;
+        /* float: left; */
         background-color: beige;
         line-height: 600px;
 
@@ -112,7 +122,7 @@ body {
     #c {
         width: 380px;
         height: 200px;
-        float: left;
+        /* float: left; */
         background-color: turquoise;
         line-height: 200px;
 
@@ -122,7 +132,7 @@ body {
     #d {
         width: 380px;
         height: 200px;
-        float: left;
+        /* float: left; */
         background-color: violet;
         line-height: 200px;
 
@@ -132,7 +142,7 @@ body {
     #e {
         width: 190px;
         height: 250px;
-        float: left;
+        /* float: left; */
         background-color: brown;
         line-height: 250px;
 
@@ -141,7 +151,7 @@ body {
     #f {
         width: 190px;
         height: 250px;
-        float: left;
+        /* float: left; */
         background-color: greenyellow;
         line-height: 250px;
 
@@ -150,7 +160,7 @@ body {
     #g {
         width: 190px;
         height: 250px;
-        float: left;
+        /* float: left; */
         background-color: green;
         line-height: 250px;
 
@@ -160,7 +170,7 @@ body {
     #h {
         width: 190px;
         height: 250px;
-        float: left;
+        /* float: left; */
         background-color: red;
         line-height: 250px;
 
