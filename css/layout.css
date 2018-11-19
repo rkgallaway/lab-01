@@ -13,7 +13,7 @@ Classes and IDs can be included here */
 #i {
     width: 480px;
     height: 80px;
-    float: left;
+    /* float: left; */
     background-color: yellow;
     line-height: 80px;
 
@@ -35,7 +35,7 @@ Classes and IDs can be included here */
     #i {
         width: 760px;
         height: 150px;
-        float: left;
+        /* float: left; */
         background-color: aqua;
         line-height: 150px;
 
