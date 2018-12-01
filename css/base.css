@@ -1,188 +1,166 @@
 /* Apply to elements such as body and main
 Examples include styling of overall font and background color */
 body {
-    /* margin: 0px auto; */
-    width: 500px;
-    /* text-align: center; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 0px auto;
+      
+    width: 480px;
+    text-align: center;
 }
 
+.container {
+    display: grid;      
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;    
+}
 
-/* div { */
-    /* border: 1px black solid; */
-    /* background-color: aqua; */
-
-    
-    /* the following taken from w3schools */
-    /* margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%; */
-    /* the preceeding taken from w3schools
-} */
-
-/* main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
+#a {
+    background-color: aqua;
+    line-height: 75px;
+    grid-column: span 2 / 3;
+    grid-row: 1;
+}
 
 
 #b {
-    width:480px;
-    height: 150px;
     background-color: red;
     line-height: 150px;
-
-
+    grid-column: span 2 / 3;
+    grid-row: 2;   
 }
 
 #c {
-    width: 480px;
-    height: 125px;
     background-color: green;
     line-height: 125px;
-
-
+    grid-column: span 2 / 3;
+    grid-row: 3;
 }
 
 #d {
-    width: 480px;
-    height: 125px;
     background-color: greenyellow;
     line-height: 125px;
-
-
+    grid-column: span 2 / 3;
+    grid-row: 4;
 }
 
 #e {
-    width: 240px;
-    height: 250px;
-    /* float: left; */
     background-color: brown;
     line-height: 250px;
-
-
+    grid-column: 1;
+    grid-row: 5;
 }
 
 #f {
-    width: 240px;
-    height: 250px;
-    /* float: left; */
     background-color: violet;
     line-height: 250px;
-
-
+    grid-column: 2;
+    grid-row: 5;
 }
 
 #g {
-    width: 240px;
-    height: 250px;
-    /* float: left; */
     background-color: turquoise;
     line-height: 250px;
-
-
+    grid-column: 1;
+    grid-row: 6;
 }
 
 #h {
-    width: 240px;
-    height: 250px;
-    /* float: left; */
     background-color: beige;
     line-height: 250px;
+    grid-column: 2;
+    grid-row: 6;
+
 
 
 }
+
+#i {
+    background-color: yellow;
+    line-height: 80px;
+    grid-column: span 2 / 3;
+    grid-row: 7;
+}
+
 
 
 @media screen and (min-width: 768px)  {
 
     body {
+        width: 960px;
         margin: 0px auto;
-        width: 980px;
+        text-align: center;
     }
 
+    .container {
+        display: grid;      
+        grid-template-columns: 200px 190px 190px 190px 190px;
+        grid-template-rows: 100px 200px 250px 150px;    
+    }
+
+    #a {
+        background-color: yellow;
+        line-height: 100px;
+        grid-column: span 5 / 6;
+        grid-row: 1;
+    }
 
     #b {
-        width: 200px;
-        height: 600px;
-        /* float: left; */
         background-color: beige;
         line-height: 600px;
-
-
+        grid-row: span 3 / 5;
+        grid-column: 1;
     }
 
     #c {
-        width: 380px;
-        height: 200px;
-        /* float: left; */
         background-color: turquoise;
         line-height: 200px;
-
-
+        grid-column: span 2 / 4;
+        grid-row: 2;
     }
 
     #d {
-        width: 380px;
-        height: 200px;
-        /* float: left; */
         background-color: violet;
         line-height: 200px;
-
-
+        grid-column: span 2 / 6;
+        grid-row: 2;
     }
 
     #e {
-        width: 190px;
-        height: 250px;
-        /* float: left; */
         background-color: brown;
         line-height: 250px;
-
+        grid-column: 2;
+        grid-row: 3;
     }
 
     #f {
-        width: 190px;
-        height: 250px;
-        /* float: left; */
         background-color: greenyellow;
         line-height: 250px;
+        grid-column: 3;
+        grid-row: 3;
 
     }
 
     #g {
-        width: 190px;
-        height: 250px;
-        /* float: left; */
         background-color: green;
         line-height: 250px;
-
+        grid-column: 4;
+        grid-row: 3;
 
     }
 
     #h {
-        width: 190px;
-        height: 250px;
-        /* float: left; */
         background-color: red;
         line-height: 250px;
-
+        grid-column: 5;
+        grid-row: 3;
 
     }
 
-    
-
-
-
-
-
+    #i {
+        background-color: aqua;
+        line-height: 150px;
+        grid-column: span 4 / 6;
+        grid-row-start: 4;
+    }
 }
 
 
